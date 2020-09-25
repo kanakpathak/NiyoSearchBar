@@ -1,2 +1,2 @@
-# Niyo Search App
+# Niyo Search Bar
 
