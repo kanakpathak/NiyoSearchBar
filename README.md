@@ -1,2 +1,2 @@
-# Niyo Search BAr
+# Niyo Search App
 
