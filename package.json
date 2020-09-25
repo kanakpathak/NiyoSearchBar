@@ -1,7 +1,7 @@
 {
-  "name": "reactboilerplate",
+  "name": "niyosearchbar",
   "version": "1.0.0",
-  "description": "ReactBoilerPlate",
+  "description": "NiyoSearchBar",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kanakpathak/ReactBoilerPlate.git"
+    "url": "git+https://github.com/kanakpathak/NiyoSearchBar.git"
   },
   "author": "Kanak",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kanakpathak/ReactBoilerPlate/issues"
+    "url": "https://github.com/kanakpathak/NiyoSearchBar/issues"
   },
-  "homepage": "https://github.com/kanakpathak/ReactBoilerPlate#readme",
+  "homepage": "https://github.com/kanakpathak/NiyoSearchBar#readme",
   "dependencies": {
     "@babel/core": "^7.8.7",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
@@ -28,6 +28,7 @@
     "css-loader": "^3.4.2",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
+    "prop-types": "^15.7.2",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-router-dom": "^5.2.0",

@@ -1,0 +1,32 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.searchContainer {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+
+.inputBox {
+  flex: 1;
+}
+
+.searchList {
+  border: 1px solid grey;
+  height: 280px;
+  overflow: auto;
+}
+
+.customCard {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid grey;
+  height: 100px;
+}
+
+.activeClassName {
+  background-color: cornsilk;
+}
