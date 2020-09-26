@@ -5,7 +5,7 @@ import "../../styles/customStyles.css";
 
 const DisplaySearch = ({ searchList, searchValue }) => {
   // state to maintain currently selected item and it's index resepctively.
-  const [selected, setSelected] = useState([false, 0]);
+  const [selected, setSelected] = useState([false, -1]);
   // state to maintaine mouse position to give determine preference over keyboard event
   const [pos, setPos] = useState(0);
   // state to maintains array of refs of length searchList, to scrollIntoView purpose
@@ -43,7 +43,7 @@ const DisplaySearch = ({ searchList, searchValue }) => {
   }, [selected]);
 
   return searchList.length < 1 ? (
-    <div>No data found</div>
+    <div className="customCard">No data found</div>
   ) : (
     searchList.map((card, index) => {
       return (
