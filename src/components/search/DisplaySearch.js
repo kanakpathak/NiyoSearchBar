@@ -15,7 +15,10 @@ const DisplaySearch = ({ searchList, searchValue }) => {
     const index = selected[1];
     if (index >= 0) {
       const idx = ref.current[index].id;
-      if (parseInt(idx, 10) === index) ref.current[index].scrollIntoView();
+      if (parseInt(idx, 10) === index)
+        ref.current[index].scrollIntoView({
+          behavior: "smooth"
+        });
     }
   };
 
